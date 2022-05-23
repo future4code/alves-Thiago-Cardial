@@ -39,9 +39,26 @@ console.log(verificaSeEMaior(321, 2156));
 
 const cadastro = () => {
     const usuario = []
-
-    //  Sua lógica aqui
-
+    idade = prompt('Digite sua idade')
+    nomUser = prompt('Digite um usuário')
+    senhaUser =  prompt('Digite uma senha')
+    nacioUser = prompt('Digite sua nacionalidade')
+    if (idade >= 18){
+    if (senhaUser.length >= 6){
+    if (nacioUser === 'Brasil'){
+        console.log('Cadastrado com sucesso!')
+    }
+    else {
+        console.log ('Falha ao cadastrar')
+    }
+    }
+    else {
+        console.log ('Falha ao cadastrar')
+    }
+    }
+    else {
+        console.log ('Falha ao cadastrar')
+    }
 }
 console.log(cadastro());
 
@@ -49,8 +66,13 @@ console.log(cadastro());
 
 const login = () => {
     const login = "labenu"
-    //  Sua lógica aqui
-
+    let senha = prompt('Digite sua senha.')
+    if (senha === senhaUser){
+        console.log('Usuário Logado!')
+    }
+    else {
+        console.log('Senha inválida')
+    }
 }
 
 console.log(login());
@@ -58,8 +80,21 @@ console.log(login());
 // Exercício 5----------------------------------------------------------------------------------------------------
 
 const primeiraDose = () => {
-
-    //  Sua lógica aqui
+    newNom = prompt ('Qual é seu nome?')
+    vacUser = prompt ('Qual vacina você tomou?')
+    let tempo = [
+        {Coronavac: '28'},
+        {Astrazenica: '90'},
+        {Pfizer: '90'},
+    ]
+    const data = [
+       {coroData: '29/08/2022'},
+       {astraData:'30/10/2022'},
+       {pfiData: '30/10/2022'},
+    ]
+    if (vacUser === 'Coronavac'){
+        console.log(`Olá ${newNom}! A próxima dose da ${vacUser} é daqui a ${tempo.vacUser} dias. Compareça no posto na data`)
+    }
 
 
 }
