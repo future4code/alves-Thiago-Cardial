@@ -1,0 +1,58 @@
+header{
+    color: red;
+}
+#rouplinha{
+    color: gold;
+}
+form{
+    color: brown;
+}
+
+ul{
+    color: blue;
+}
+
+h2{
+    color: purple;
+}
+
+table{
+    color: lightgreen;
+}
+
+body{
+    background-color: gray;
+}
+#bluspret{
+    color: black;
+}
+#camisbranc{
+    color: white;
+}
+#moletazuj{
+    color: blue;
+}
+#moletver{
+    color: red;
+}
+#calcjin{
+    color: darkslategrey;
+}
+html{
+margin: 0;
+padding: 0;
+}
+body{
+font-family: 'calibri light', calibri, arial, sans-serif;
+}
+div{
+    margin-bottom: 40px;
+}     
+footer{
+border-top: 1px solid #333;
+bottom: 0;
+left: 0;
+height: 40px;
+position: fixed;
+width: 100%;
+}
